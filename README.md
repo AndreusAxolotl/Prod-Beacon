@@ -4,6 +4,8 @@ So why not have a beacon that can only accept prod modules but also needs a seco
 
 Thanks to the Nonstandard Beacons mod this is now possible! Reach unthinkable productivity levels while dealing with entire belts of modules to satiate your factory!
 
+### Translation
+- [You can find Productivity Beacon here for translation purposes, just translate it to your language and send it in, its locale will be updated in the following updates!](https://crowdin.com/project/factorio-mods-localization)
 ### Credits
 
 This mod wouldn't be possible without the help of these amazing people!
