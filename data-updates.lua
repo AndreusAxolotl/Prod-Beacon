@@ -41,6 +41,9 @@ if mods["space-age"] then
     add_science_pack("prod-prod-beacon", {"agricultural-science-pack", 1})
     add_tech_prerequisites("prod-prod-beacon", "electromagnetic-science-pack")
 end
+if feature_flags["freezing"] then
+  data.raw["beacon"]["prod-prod-beacon"].heating_energy = "500kW"
+end
 if mods["Age-of-Production"] then 
     add_tech_prerequisites("prod-prod-beacon", "aop-smaller-beacons")
     data.raw.recipe["prod-prod-beacon"].ingredients = {

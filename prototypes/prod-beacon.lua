@@ -6,13 +6,9 @@ local hit_effects = require("__base__/prototypes/entity/hit-effects")
 local sounds = require("__base__/prototypes/entity/sounds")
 local movement_triggers = require("__base__/prototypes/entity/movement-triggers")
 local cargo_pod_procession_catalogue = require("__base__/prototypes/entity/cargo-pod-catalogue")
-local space_age_sounds = require("__space-age__.prototypes.entity.sounds")
 local item_sounds = require("__base__.prototypes.item_sounds")
-local space_age_item_sounds = require("__space-age__.prototypes.item_sounds")
 local item_tints = require("__base__.prototypes.item-tints")
-local item_effects = require("__space-age__.prototypes.item-effects")
 local meld = require("meld")
-local simulations = require("__space-age__.prototypes.factoriopedia-simulations")
 
 data:extend {{
     type = "item",
@@ -121,7 +117,6 @@ data:extend{
             burnt_inventory_size = 1,
         },
         energy_usage = "500kW",
-        heating_energy = "200kW",
         module_slots = 1,
         supply_area_distance = 3,
         distribution_effectivity = 3,
