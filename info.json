@@ -1,0 +1,15 @@
+{
+  "name": "Prod-Beacon",
+  "version": "1.0.0",
+  "title": "Productivity Beacon",
+  "author": "AndreusAxolotl",
+  "description": "Ever wanted to burn productivity modules to have them in a beacon?",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base",
+    "zzz-nonstandard-beacons",
+    "? space-age",
+    "? Age-of-Production"
+
+]
+}
