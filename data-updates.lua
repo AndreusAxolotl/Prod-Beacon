@@ -38,6 +38,7 @@ local function add_tech_effect(tech_name, effect)
 if mods["space-age"] then 
     add_science_pack("prod-prod-beacon", {"space-science-pack", 1})
     add_science_pack("prod-prod-beacon", {"electromagnetic-science-pack", 1})
+    add_science_pack("prod-prod-beacon", {"agricultural-science-pack", 1})
     add_tech_prerequisites("prod-prod-beacon", "electromagnetic-science-pack")
 end
 if mods["Age-of-Production"] then 
